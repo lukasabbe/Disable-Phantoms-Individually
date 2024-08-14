@@ -45,7 +45,12 @@ public class InsomniaSpawningCommand {
             return 0;
         }
         PlayerData playerData = InsomniaData.getPlayerState(ctx.getSource().getPlayer());
-        ctx.getSource().sendFeedback(()->Text.literal("Its set to: " + playerData.insomniaToggle),false);
+        String message;
+        if(playerData.insomniaToggle)
+            message = "You have phantoms ON, they can spawn around you";
+        else
+            message = "You have phantoms OFF, they can't spawn around you";
+        ctx.getSource().sendFeedback(()->Text.literal(message),false);
         return 1;
     }
 
