@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "disablephantomsindividually",
+  "version": "${version}",
+  "name": "DisablePhantomsIndividually",
+  "description": "Disable phantoms individually instead of the whole server",
+  "authors": [
+    "lukasabbe"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/disablephantomsindividually/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "me.lukasabbe.disablephantomsindividually.Disablephantomsindividually"
+    ]
+  },
+  "mixins": [
+    "disablephantomsindividually.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
