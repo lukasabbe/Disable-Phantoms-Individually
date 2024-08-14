@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: ./gradlew clean build
       - name: publish
-        uses: Kir-Antipov/mc-publish@v3.3.3
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: un7urasP
           modrinth-token: "${{env.MODRINTH_TOKEN}}"
