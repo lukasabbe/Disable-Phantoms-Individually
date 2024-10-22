@@ -1,7 +1,6 @@
 package me.lukasabbe.disablephantomsindividually.playerdata;
 
 import me.lukasabbe.disablephantomsindividually.Disablephantomsindividually;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.server.MinecraftServer;
