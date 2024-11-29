@@ -2,12 +2,14 @@
   "schemaVersion": 1,
   "id": "disablephantomsindividually",
   "version": "${version}",
-  "name": "DisablePhantomsIndividually",
+  "name": "Disable Phantoms Individually",
   "description": "Disable phantoms individually instead of the whole server",
   "authors": [
     "lukasabbe"
   ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/lukasabbe/Disable-Phantoms-Individually"
+  },
   "license": "MIT",
   "icon": "assets/disablephantomsindividually/icon.png",
   "environment": "server",
